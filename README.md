@@ -1,2 +1,3 @@
 # moviemanagement
-LMC2700 Movie Management Project
+LMC2700 Movie Management Project by Lucy Scott
+
