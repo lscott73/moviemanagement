@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:500');
+
+ h1 {
+	font-size: 45px;
+	padding-left: 15px;
+	color: rgba(255, 255, 255, .1);
+	text-align: center;
+	font-family: new-hero, sans-serif;
+	background: -webkit-linear-gradient(left,rgb(228, 104, 232),rgb(246, 105, 232),rgb(177, 82, 240), rgb(26, 225, 26), rgb(103, 119, 235),violet);
+	background-repeat: repeat-x;
+	-webkit-background-clip: text;
+	animation-name: colorchange;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+  }
+  @keyframes colorchange {
+	0% {
+	  background-position: right 0px bottom 0px;
+	}
+	100% {
+	  background-position: right 10em bottom 0px;
+	}
+  }
+  #movieResult {
+	font-family: new-hero, sans-serif;
+  }
+  p {
+	font-family: new-hero, sans-serif
+  }
+/* h1 {
+	font-size: 45px;
+	padding-left: 15px;
+	color: rgba(69, 212, 244, 0.934);
+	text-align: center;
+	font-family: new-hero, sans-serif;
+} */
+body{
+	background-color: rgb(252, 241, 241);
+}
